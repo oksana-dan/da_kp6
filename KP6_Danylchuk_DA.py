@@ -24,6 +24,15 @@ Profit\
 Shipping Cost\
 Order Priority
 """
+import streamlit as st
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import altair as alt
+import numpy as np
+import plotly.express as px
+from sklearn.linear_model import LinearRegression
+from sklearn.cluster import KMeans
 
 df = pd.read_csv('Global_Superstore2.csv', encoding='latin-1')
 

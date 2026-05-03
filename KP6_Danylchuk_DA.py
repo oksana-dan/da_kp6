@@ -142,7 +142,7 @@ else:
 
 if chart_option == "Середні продажі за категорією":
     st.subheader("📊 Середні продажі за категорією")
-        fig, ax = plt.subplots(figsize=(10, 5))
+    fig, ax = plt.subplots(figsize=(10, 5))
     sns.barplot(
         data=df_filtered,
         x="Category",

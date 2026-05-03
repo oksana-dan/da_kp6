@@ -5,5 +5,5 @@ import seaborn as sns
 import altair as alt
 import numpy as np
 import plotly.express as px
-from sklearn.linear_model import LinearRegression
+from scikit-learn.linear_model import LinearRegression
 from sklearn.cluster import KMeans
